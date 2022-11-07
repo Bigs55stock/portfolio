@@ -36,3 +36,169 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+Header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  color: white;
+}
+
+
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Quattrocento Sans', sans-serif;
+
+}
+.intro{
+  font-weight: 700;
+  font-size: 20px;
+  color: yellowgreen;
+  font-family: 'Quattrocento Sans', sans-serif;
+
+}
+.link-to-proj{
+  margin: 40px;
+}
+.home{
+  background-color: rgb(107, 120, 51);
+}
+#about{
+  color:#f9f0e1;
+  margin-top: 35px;
+}
+.abouth2{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.icon-links{
+  padding: 20px;
+  margin: 20px;
+  
+}
+.aboutp{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.pfp{
+  border:4px solid #f9f0e1;
+  height: 400px;
+  width:400px;
+}
+.cd-intro{
+  margin-bottom: 0px;
+}
+.works{
+  background-color: #1d6545;
+}
+li{
+  
+  margin:20px;
+}
+#hero-area {
+  background: url('https://i.imgur.com/riV0t4Y.jpg') no-repeat 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 230px 0;
+  color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+
+  }
+  .block {
+    position: relative;
+    z-index: 9;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 25px;
+  }
+  .btn {
+    background: button-bg;
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    border-radius: 0;
+  }
+  .section-heading{
+    color: whitesmoke;
+    margin-top:30px
+  }
+.latest{
+  color:whitesmoke;
+  font-size: 40px;
+}
+.projects{
+  margin-top:30px
+}
+a {
+  color: antiquewhite;
+}
+
+.va {
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background: url(https://i.imgur.com/yb2txdj.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid turquoise;
+}
+
+footer {
+  color: white;
+  background: black !important;
+}
+
+footer strong {
+  color: lightblue;
+}
+
+footer a {
+  color: lightblue;
+}
+
+
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+
+
